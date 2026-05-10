@@ -8,13 +8,13 @@ document.getElementById("formContato").addEventListener("submit", function (even
 
     if (nome === "" || email === "" || mensagem === "") {
         status.textContent = "Por favor, preencha todos os campos.";
-        status.style.color = "#8b5e3c"; // marrom rústico
+        status.style.color = "#8b5e3c";
     } else if (!email.includes("@")) {
-        status.textContent = "Digite um e-mail válido.";
-        status.style.color = "#a94442"; // tom terroso avermelhado
+        status.textContent = "Digite um e-mail vÃ¡lido.";
+        status.style.color = "#a94442"; 
     } else {
         status.textContent = "Mensagem enviada com sucesso!";
-        status.style.color = "#6b4226"; // marrom mais forte
+        status.style.color = "#6b4226"; 
     }
 });
 
